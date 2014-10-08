@@ -174,25 +174,25 @@
 // Primary Button
 // -------------------------
 .btn-primary {
-  .btnBackground(#4d90fe, #4787ed, #fff, #3079ed);
+  .btnBackground(@btnPrimaryBackgroundHighlight, @btnPrimaryBackground, #fff, #3079ed);
 }
 
 // Danger Button
 // -------------------------
 .btn-danger {
-  .btnBackground(#dd4b39, #d14836, #fff, #c6322a);
+  .btnBackground(@btnDangerBackgroundHighlight, @btnDangerBackground, #fff, #c6322a);
 }
 
 // Warning Button
 // -------------------------
 .btn-warning {
-  .btnBackground(lighten(@orange, 15%), lighten(@orange, 10%), #fff, darken(@btnWarningBackground, 3%));
+  .btnBackground(@btnWarningBackgroundHighlight, @btnWarningBackground, #fff, darken(@btnWarningBackground, 3%));
 }
 
 // Success Button
 // -------------------------
 .btn-success {
-  .btnBackground(#35aa47, #35aa47, #fff, #359947);
+  .btnBackground(@btnSuccessBackgroundHighlight, @btnSuccessBackground, #fff, #359947);
 }
 
 // Info Button
